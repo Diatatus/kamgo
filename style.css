@@ -1,0 +1,221 @@
+#bg {
+  background-image: url(service_taxi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.green {
+  color: #fff460fd;
+}
+.gree {
+  background-color: #fff460fd;
+  color: rgb(5, 5, 5);
+  border-radius: 5px;
+}
+h1,
+h5,
+.logo {
+  color: rgb(0, 0, 0);
+}
+#errors {
+  color: red;
+}
+#pas {
+  display: none;
+}
+.nos {
+  color: #fff460fd;
+}
+.box {
+  background-color: #63e956;
+  border-radius: 10px;
+}
+.green {
+  background-color: #fff460fd;
+  color: black;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.tup {
+  border-radius: 20px;
+  padding: 0px 5px;
+  border: none;
+}
+label {
+  font-size: 10px;
+  margin: auto;
+  padding: auto;
+  color: grey;
+}
+.feilds {
+  background-color: #e2e2e2;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0.5px;
+  margin-bottom: 10px;
+}
+.btn:hover,
+.btn:active {
+  background-color: #fff460fd;
+}
+.arro {
+  -webkit-appearance: none;
+}
+
+th {
+  cursor: pointer;
+}
+.po {
+  font-size: 100px;
+}
+.sidebar {
+  background-color: #f1f1f1;
+  height: 800px;
+  width: 200px;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #fff460fd;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: grey;
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+.mai {
+  width: 70%;
+  background-color: aqua;
+  height: 100%;
+  float: right;
+  margin-right: 200px;
+}
+
+.ap {
+  border-right: none;
+}
+.invoice-box {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #eee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #555;
+}
+
+.invoice-box table {
+  width: 100%;
+  line-height: inherit;
+  text-align: left;
+}
+
+.invoice-box table td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+.invoice-box table tr td:nth-child(2) {
+  text-align: right;
+}
+
+.invoice-box table tr.top table td {
+  padding-bottom: 20px;
+}
+
+.invoice-box table tr.top table td.title {
+  font-size: 45px;
+  line-height: 45px;
+  color: #333;
+}
+
+.invoice-box table tr.information table td {
+  padding-bottom: 40px;
+}
+
+.invoice-box table tr.heading td {
+  background: #eee;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+}
+
+.invoice-box table tr.details td {
+  padding-bottom: 20px;
+}
+
+.invoice-box table tr.item td {
+  border-bottom: 1px solid #eee;
+}
+
+.invoice-box table tr.item.last td {
+  border-bottom: none;
+}
+
+.invoice-box table tr.total td:nth-child(2) {
+  border-top: 2px solid #eee;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .invoice-box table tr.top table td {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .invoice-box table tr.information table td {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}
+
+/** RTL **/
+.rtl {
+  direction: rtl;
+  font-family: Tahoma, "Helvetica Neue", "Helvetica", Helvetica, Arial,
+    sans-serif;
+}
+
+.rtl table {
+  text-align: right;
+}
+
+.rtl table tr td:nth-child(2) {
+  text-align: left;
+}
