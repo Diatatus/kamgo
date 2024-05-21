@@ -9,7 +9,7 @@
           <button class="btn btn-primary green btn-sm tup font-weight-bold">TAXI VILLE</button><hr>
         </div>
         <h4 class="font-weight-bold">Votre partenaire de déplacements au quotidien</h4>
-        <h6>Taxis climatisés pour les déplacements</h6>
+        <h6>Taxis diponibles pour les déplacements</h6>
       </div>
         <form action="index.php" method="post">
             <div class="form-group  row feilds ">
@@ -55,7 +55,7 @@
                   <option value="Gorakhpur">Gorakhpur</option> -->
               </select>
           </div>
-          <p id="ed" class="bg-danger text-center">Entrer le point de destination</p>
+          <p id="ed" class="bg-danger text-center">Entrez le point de destination</p>
           <div class="form-group  row feilds ">
             <label class="col-sm-3"  for="cabtype">TYPE DE TAXI</label>
             <select name="cabtype"  class="form-control-plaintext col-sm-9 arro" id="cabtype">
@@ -72,7 +72,7 @@
           <input type="text" name="lugg"  class="form-control-plaintext col-sm-9 arrow" maxlength="2" id="lugg" placeholder="Entrer le poids en KG">
           <p id="err" class="text-danger h6">*Les bagages ne sont pas disponibles Sur les Motos taxis</p>
         </div>
-        <p id="nu" class="bg-danger text-center">Entrer la valeur du poids</p>
+        <p id="nu" class="bg-danger text-center">Entrez la valeur du poids</p>
         <p id="fare" class="green text-center"></p>
         <input type="hidden" id="far" name="fare" value="" >
         <input type="hidden" id="dist" name="dist" value="" >
